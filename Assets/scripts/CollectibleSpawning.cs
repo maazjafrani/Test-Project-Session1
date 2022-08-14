@@ -18,6 +18,10 @@ public class CollectibleSpawning : MonoBehaviour
 
     private void SpawnCubes(){
 
+            for(int i=0;i<Count;i++){
+                Instantiate(CollectibleGameObject);
+            }
+
     }
 
     }
